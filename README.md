@@ -1,21 +1,16 @@
 # Pure-Accordion
-- Light: 1.92kb for accordion.js and 0.82kb for accordion.css
-- Simple: No configuration is needed
-- Clean: No extra wrapper or container is needed, make your HTML even more straightforward
-- Flexible: Only minimum css is provided, you can custom your accordion by overriding existing css
+- **Light**: 1.92kb for accordion.js and 0.82kb for accordion.css
+- **Simple**: No configuration is needed
+- **Clean**: No extra wrapper or container is needed, make your HTML even more straightforward
+- **Flexible**: Only minimum css is provided, you can custom your accordion by overriding existing css
 
 # Installation
-npm install pure-accordion
+npm install pure-accordion\
 Include both accordion.css and accordion.js in your project from "/node_modules/pure-accordion"
 
-# Example
+# Examples
 1. Simple Accordion
 ```
-<h2 class="accordion">Your Title</h2>
-<div class="accordion-content">
-  <p>Your content</p>
-</div>
-
 <h2 class="accordion">Your Title</h2>
 <div class="accordion-content">
   <p>Your content</p>
@@ -32,10 +27,15 @@ Include both accordion.css and accordion.js in your project from "/node_modules/
 </div>
 ```
 
+# Configuration
+| Parameters   | Type      | Default | Description |
+| ------------ |:---------:|:-------:|------------:|
+| toggle       | boolean   | false   |     xxxxx   |
+
 ```
 <script>
   accordionsInit({
-    toggle: true
+    toggle: boolean
   })
 </script>
 ```
