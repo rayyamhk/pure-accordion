@@ -29,7 +29,7 @@ Include both accordion.css and accordion.js in your project from "/node_modules/
 
 # Configuration
 | Parameters   | Type      | Default | Description      |
-| ------------ |:---------:|:-------:|-----------------:|
+|:------------ |:----------|:--------|:-----------------|
 | toggle       | boolean   | false   | collapse manually|
 
 ```
