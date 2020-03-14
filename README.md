@@ -1,5 +1,8 @@
-# pure-accordion
-Make your accordions simple and beautiful
+# Pure-Accordion
+- Light: 1.92kb for accordion.js and 0.82kb for accordion.css
+- Simple: No configuration is needed
+- Clean: No extra wrapper or container is needed, make your HTML even more straightforward
+- Flexible: Only minimum css is provided, you can custom your accordion by overriding existing css
 
 # Installation
 npm install pure-accordion
