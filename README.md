@@ -4,9 +4,41 @@
 - **Clean**: No extra wrapper or container is needed, make your HTML even more straightforward
 - **Flexible**: Only minimum css is provided, you can custom your accordion by overriding existing css
 
-# Installation
-npm install pure-accordion\
-Include both accordion.css and accordion.js in your project from "/node_modules/pure-accordion"
+# Getting Started
+
+## 1. Installation
+`$npm install pure-accordion`
+
+## 2. Include files to your website from node_modules
+```
+<head>
+    ...
+    <link rel="stylesheet" href="path/to/accordion.css">
+</head>
+<body>
+    ...
+    <script src="path/to/accordion.js"></script>
+</body>
+```
+## 3. Add HTML Layout
+```
+<h1 class="accordion">Your Title</h1>
+<div class="accordion-content">
+  <p>Your content</p>
+</div>
+```
+
+## 4. Initialize Accordion
+```
+<body>
+...
+  <script>
+    accordionsInit({
+      toggle: true
+    })
+  </script>
+</body>
+```
 
 # Examples
 1. Simple Accordion
@@ -27,18 +59,10 @@ Include both accordion.css and accordion.js in your project from "/node_modules/
 </div>
 ```
 
-# Configuration
+# Optional Configurations
 | Parameters   | Type      | Default | Description      |
 |:------------ |:----------|:--------|:-----------------|
 | toggle       | boolean   | false   | collapse manually|
-
-```
-<script>
-  accordionsInit({
-    toggle: boolean
-  })
-</script>
-```
 
 # Remarks
 - You cannot set **padding-top, padding-bottom and border** for **.accordion-content**
