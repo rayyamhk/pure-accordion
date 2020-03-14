@@ -39,3 +39,7 @@ Include both accordion.css and accordion.js in your project from "/node_modules/
   })
 </script>
 ```
+
+# Remarks
+- You cannot set **padding-top, padding-bottom and border** for **.accordion-content**
+- Wrap your text content in .accordion-content by a reasonable tag and add padding-top, padding-bottom or border to the wrapper
