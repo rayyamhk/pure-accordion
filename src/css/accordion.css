@@ -10,14 +10,12 @@
 .accordion-content {
     height: 0px;
     margin: 0px;
-    padding-left: 24px;
+    padding: 24px;
     padding-right: 54px;
-    padding-bottom: 0px !important;
-    padding-top: 0px !important;
-    border: none !important;
+    border: none;
     display: block;
     overflow: hidden;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
 }
 
 .accordion-button {
@@ -37,7 +35,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: 0.2s all ease;
+    transition: 0.25s all ease;
 }
 
 .accordion-button span:last-child {

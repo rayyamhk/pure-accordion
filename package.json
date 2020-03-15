@@ -1,0 +1,34 @@
+{
+  "name": "pure-accordion",
+  "version": "1.0.2",
+  "description": "Make your accordions simple and beautiful",
+  "main": "accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyamhk/pure-accordion.git"
+  },
+  "keywords": [
+    "accordion",
+    "collapse",
+    "show-hide",
+    "dropdown",
+    "toggle",
+    "vanilla js",
+    "component",
+    "3cdkb",
+    "extremely simple"
+  ],
+  "author": "Ray Yam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayyamhk/pure-accordion/issues"
+  },
+  "homepage": "https://rayyamhk.github.io/pure-accordion/",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
