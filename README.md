@@ -33,7 +33,13 @@
 <body>
 ...
   <script>
+    // Default setting
     accordionsInit()
+    // Custom setting
+    accordionsInit({
+        toggle?: boolean,
+        button?: boolean
+    })
   </script>
 </body>
 ```
