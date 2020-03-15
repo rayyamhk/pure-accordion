@@ -46,6 +46,7 @@
 
 # Examples
 1. Simple Accordion
+Demo: https://rayyamhk.github.io/pure-accordion/demo1.html
 ```
 <h2 class="accordion">Your Title</h2>
 <p class="accordion-content">
@@ -59,6 +60,7 @@
 </ul>
 ```
 2. Nested Accordion
+Demo: https://rayyamhk.github.io/pure-accordion/demo2.html
 ```
 <h1 class="accordion">Level1</h1>
 <div class="accordion-content">
@@ -67,6 +69,18 @@
     Your content
   </p>
 </div>
+```
+2. Accordion with Toggle
+Demo3: https://rayyamhk.github.io/pure-accordion/demo3.html
+```
+<body>
+...
+  <script>
+    accordionsInit({
+        toggle: true
+    })
+  </script>
+</body>
 ```
 
 # Optional Configurations
