@@ -45,7 +45,7 @@
 ```
 
 # Examples
-1. Simple Accordion
+1. Simple Accordion\
 Demo: https://rayyamhk.github.io/pure-accordion/demo1.html
 ```
 <h2 class="accordion">Your Title</h2>
@@ -59,7 +59,7 @@ Demo: https://rayyamhk.github.io/pure-accordion/demo1.html
   <li>Your list</li>
 </ul>
 ```
-2. Nested Accordion
+2. Nested Accordion\
 Demo: https://rayyamhk.github.io/pure-accordion/demo2.html
 ```
 <h1 class="accordion">Level1</h1>
@@ -70,7 +70,7 @@ Demo: https://rayyamhk.github.io/pure-accordion/demo2.html
   </p>
 </div>
 ```
-2. Accordion with Toggle
+3. Accordion with toggle on same level\
 Demo3: https://rayyamhk.github.io/pure-accordion/demo3.html
 ```
 <body>
