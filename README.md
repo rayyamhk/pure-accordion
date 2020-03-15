@@ -88,3 +88,6 @@ Demo3: https://rayyamhk.github.io/pure-accordion/demo3.html
 |:------------ |:----------|:--------|:-----------------|
 | toggle       | boolean   | false   | collapse manually|
 | button       | boolean   | true    | display button   |
+
+# Compatability
+IE 10+
